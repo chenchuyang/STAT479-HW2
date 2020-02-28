@@ -1,13 +1,7 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
+title: "Untitled"
+output: pdf_document
 ---
-# STAT479-HW2
-
-
-
-
 Name: CHUYANG CHEN
 
 
@@ -86,7 +80,5 @@ The result shows that a higher unemployment rate of previous month are likely to
 lm_unemployed2 = lm(data = table3, unemployed ~ unemployed_rate_Nov + unemployed_Nov + APPR_WIDTH_MT_032 + PERCENT_ADT_TRUCK_109 + ADT_029 + as.character(FUNCTIONAL_CLASS_026))
 summary(lm_unemployed_rate2)
 ```
-
-
 
 
